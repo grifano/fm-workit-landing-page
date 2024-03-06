@@ -2,18 +2,23 @@
 
 # Hi 👋 there!
 
-I'm a big fan of design, web development and all things tech, especially
-anything from Apple. I also love hitting the road on my bike 🚴. But nothing
-beats the times I spend with my family and my kids - they're my world!
+So glad you've dropped by my coding corner. Here, it's all about web design,
+coding magic.
 
-I'm really looking forward to sharing stories and learning new things with you
-all. Let's connect!
+Between coding sessions, I'm probably out cycling 🚴‍♂️ or having fun annoying my
+kids (they secretly love it😁!).
 
-# Latest Project: Project Name
+Dive 👀 into my projects, see what sparks joy, and let's chat 💬 about anything
+from tech to the best cycling routes.
 
-### Screenshot
+Happy exploring!
 
-![](./assets/Banner.jpg)
+# Project: WorkIt - Landing Page
+
+[Frontend Mentor](https://www.frontendmentor.io) challenges that help to improve
+coding skills by building realistic projects.
+
+![](./assets/preview.webp)
 
 ### Requirements
 
@@ -32,8 +37,9 @@ Users should be able to:
 
 ### Links
 
-- Design URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:
+  [FrontendMentor Challenge Hub](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu)
+- Live Site URL: [GitHub Pages](grifano.github.io/fm-workit-landing-page/)
 
 ## Author
 

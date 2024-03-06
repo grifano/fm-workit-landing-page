@@ -1,0 +1,11 @@
+:root {
+  /*** Colors ***/
+  --dark-purple: #24053e;
+  --eucaplyptus: #44ffa1;
+  --davys-grey: #584d62;
+  --ghost-white: #fcf8ff;
+  --white: #fff;
+  /*** Fonts ***/
+  --font-family-body: 'Manrope', sans-serif;
+  --font-family-headlines: 'Fraunces', serif;
+}
