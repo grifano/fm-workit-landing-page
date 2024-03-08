@@ -1,23 +1,13 @@
 /*** Fonts ***/
-/* fraunces-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Fraunces';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/fraunces-v31-latin-regular.woff2') format('woff2'),
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url('../fonts/fraunces-v31-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-}
 /* fraunces-600 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Fraunces';
   font-style: normal;
   font-weight: 600;
-  src: url('../fonts/fraunces-v31-latin-600.woff2') format('woff2'),
+  src: url('../fonts/Fraunces_144pt-SemiBold.woff') format('woff2'),
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      url('../fonts/fraunces-v31-latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+      url('../fonts/Fraunces_144pt-SemiBold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* manrope-regular - latin */
 @font-face {
@@ -36,7 +26,7 @@ html {
 }
 body {
   background-color: var(--white);
-  font-family: var(--font-family-body);
+  font-family: var(--font-family);
   font-size: 18px;
   line-height: 1.8;
 }
@@ -51,7 +41,7 @@ body {
 
 /*** Buttons ***/
 .button {
-  font-family: var(--font-family-body);
+  font-family: var(--font-family);
   font-weight: 700;
   font-size: 16px;
   line-height: 2;
@@ -69,15 +59,14 @@ body {
 }
 @media screen and (min-width: 768px) {
   .button {
-    min-width: 181px;
-    height: 52px;
+    min-width: 133px;
   }
 }
 @media screen and (min-width: 1280px) {
   .button {
     padding: 13px 32px 16px;
     min-width: 161px;
-    height: 61px;
+    min-height: 61px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
