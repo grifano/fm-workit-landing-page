@@ -34,6 +34,20 @@ body {
   overflow: hidden;
 }
 
+/*** Visually hide element, but keep visible for search engine ***/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /*** Section global vertical padding ***/
 .section {
   scroll-margin-top: 60px;
@@ -106,5 +120,5 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-family-headlines);
+  font-family: var(--second-family);
 }

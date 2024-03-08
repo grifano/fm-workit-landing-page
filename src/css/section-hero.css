@@ -4,6 +4,7 @@
   background-position: bottom;
   background-size: cover;
   position: relative;
+  z-index: 2;
   padding-bottom: 157px;
 }
 .hero-content {

@@ -1,0 +1,40 @@
+.footer {
+  padding-top: 74px;
+  padding-bottom: 64px;
+}
+.container.is-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-logo {
+  margin-bottom: 57px;
+}
+.main-logo svg {
+  fill: var(--dark-purple);
+}
+.social-list {
+  display: flex;
+}
+.social-list-item {
+}
+.social-link {
+  padding: 12px;
+}
+.social-icon {
+}
+
+@media screen and (min-width: 1280px) {
+  .main-logo svg,
+  .social-link svg {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .main-logo:hover svg,
+  .social-link:hover svg,
+  .main-logo:hover svg,
+  .social-link:hover svg {
+    fill: var(--eucaplyptus);
+  }
+}
