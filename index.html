@@ -13,7 +13,7 @@
     <title>WorkIt - Landing Page</title>
     <script type="module" crossorigin src="/fm-workit-landing-page/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/fm-workit-landing-page/assets/vendor-e04b4503.js">
-    <link rel="stylesheet" href="/fm-workit-landing-page/assets/index-54d2002e.css">
+    <link rel="stylesheet" href="/fm-workit-landing-page/assets/index-6c8098d0.css">
   </head>
   <body>
     <header class="header">
@@ -30,33 +30,63 @@
     <main>
       <section class="section-hero">
   <div class="container">
-    <h1 class="hero-heading">
-      Data <span class="hero-heading-span">tailored</span> to your needs.
-    </h1>
-    <button class="button">Learn more</button>
+    <div class="hero-content">
+      <h1 class="hero-heading">
+        Data <span class="hero-heading-span">tailored</span> to your needs.
+      </h1>
+      <button class="button">Learn more</button>
+    </div>
     <picture>
-      <!-- Example for modern browsers with WebP support -->
+      <!-- Mobile -->
       <source
         type="image/webp"
-        srcset="/fm-workit-landing-page/assets/phone-frame-mob-c06d907f.webp 320w 1x, /fm-workit-landing-page/assets/phone-frame-mob-c06d907f.webp 320w 2x, /fm-workit-landing-page/assets/phone-frame-tablet-2dbeb3d6.webp 768w 1x, /fm-workit-landing-page/assets/phone-frame-tablet-2dbeb3d6.webp 768w 2x, /fm-workit-landing-page/assets/phone-frame-desktop-832585ae.webp 1280w 1x, /fm-workit-landing-page/assets/phone-frame-desktop-832585ae.webp 1280w 2x"
-        sizes="(max-width: 600px) 480px, (max-width: 900px) 800px, 1200px"
+        srcset="/fm-workit-landing-page/assets/phone-frame-mob-c06d907f.webp , /fm-workit-landing-page/assets/phone-frame-mob@2x-7445b350.webp 2x"
+        media="(min-width: 320px) and (max-width: 768px)"
       />
-
-      <!-- Fallback for browsers that do not support WebP but can handle PNG -->
       <source
         type="image/png"
-        srcset="/fm-workit-landing-page/assets/phone-frame-mob-bacd345a.png 320w, /fm-workit-landing-page/assets/phone-frame-tablet-c9e1cf84.png 768w, /fm-workit-landing-page/assets/phone-frame-desktop-aebe836a.png 1280w"
-        sizes="(max-width: 600px) 480px, (max-width: 900px) 800px, 1200px"
+        srcset="/fm-workit-landing-page/assets/phone-frame-mob-bacd345a.png , /fm-workit-landing-page/assets/phone-frame-mob@2x-42cf6285.png 2x"
+        media="(min-width: 320px) and (max-width: 767px)"
       />
-
-      <!-- Further fallback for 2x screens using PNG (without specifying type to allow for broad compatibility) -->
+      <!-- Tablet -->
       <source
-        srcset="example-medium.png 1000w 1x, example-large.png 1500w 2x"
-        sizes="(max-width: 600px) 480px, (max-width: 900px) 800px, 1200px"
+        type="image/webp"
+        srcset="/fm-workit-landing-page/assets/phone-frame-tablet-2dbeb3d6.webp , /fm-workit-landing-page/assets/phone-frame-tablet@2x-70ce1367.webp 2x"
+        media="(min-width: 768px) and (max-width: 1280px)"
+        width="514"
+        height="296"
+      />
+      <source
+        type="image/png"
+        srcset="/fm-workit-landing-page/assets/phone-frame-tablet-c9e1cf84.png , /fm-workit-landing-page/assets/phone-frame-tablet@2x-6bcfef15.png 2x"
+        media="(min-width: 768px) and (max-width: 1280px)"
+        width="514"
+        height="296"
+      />
+      <!-- Desktop -->
+      <source
+        type="image/webp"
+        srcset="/fm-workit-landing-page/assets/phone-frame-desktop-832585ae.webp , /fm-workit-landing-page/assets/phone-frame-desktop@2x-819f684d.webp 2x"
+        media="(min-width: 1280px)"
+        width="767"
+        height="441"
+      />
+      <source
+        type="image/png"
+        srcset="/fm-workit-landing-page/assets/phone-frame-desktop-aebe836a.png , /fm-workit-landing-page/assets/phone-frame-desktop@2x-b34941c8.png 2x"
+        media="(min-width: 1280px)"
+        width="767"
+        height="441"
       />
 
       <!-- Default image for older browsers; this will be used if none of the above sources are compatible -->
-      <img src="/fm-workit-landing-page/assets/phone-frame-mob-bacd345a.png" alt="Mobile mockup" />
+      <img
+        class="hero-image"
+        src="/fm-workit-landing-page/assets/phone-frame-mob-bacd345a.png"
+        alt="Mobile mockup"
+        width="320"
+        height="184"
+      />
     </picture>
   </div>
 </section>
