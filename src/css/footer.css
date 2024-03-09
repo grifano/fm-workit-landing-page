@@ -12,7 +12,7 @@
 .main-logo {
   margin-bottom: 57px;
 }
-.main-logo svg {
+.main-logo.is-footer svg {
   fill: var(--dark-purple);
 }
 .social-list {
