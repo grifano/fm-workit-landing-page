@@ -101,14 +101,15 @@ body {
   padding: 0 16px;
   margin: 0 auto;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .container {
-    max-width: 769px;
+    max-width: 689px;
+    padding: 0 40px;
   }
 }
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1192px;
+    max-width: 1032px;
     padding: 0px 40px;
   }
 }
